@@ -3,8 +3,8 @@
 
 Write about the project and push to github!
 
-###Goals!
+### Goals!
 
-###What I learned!
+### What I learned!
 
-###To do!
+### To do!
