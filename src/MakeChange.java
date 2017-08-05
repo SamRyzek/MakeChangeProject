@@ -1,5 +1,10 @@
 import java.util.*;
 
+/**
+ * @author samuelryzek
+ *
+ */
+
 public class MakeChange 
 {
 	private static Scanner kb;		//gives scanner a class in field
