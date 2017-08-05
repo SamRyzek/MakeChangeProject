@@ -3,54 +3,39 @@ import java.util.*;
 public class MakeChange 
 {
 	Scanner kb = new Scanner(System.in);
+	private static Scanner kb2;
 	public static void main(String[] args) 
 	{
-		Scanner kb = new Scanner(System.in);
-		double cashIn, amountDue, cashOut;
-		int pennies = 0;
+		kb2 = new Scanner(System.in);
+		double cashIn, amountDue, cashOut, penniesR;
+		int pennies = 0, penniesT, quarters, dimes, nickels;
 		
-		System.out.println("How much is the item: ");
-		amountDue = kb.nextDouble();
+		System.out.print("How much is the item: $");
+		amountDue = kb2.nextFloat();
+		System.out.print("How much money was tendered? $");
+		cashIn = kb2.nextFloat();
 		
+		cashOut = cashIn - amountDue;
 		
-		getMoney(pennies);
-		makeChange100(pennies);
-		makeChange25(pennies);
-		makeChange10(pennies);
-		makeChange5(pennies);
-		makeChange1(pennies);
-	}
-
-
-	public static double getMoney(int pennies) //This method gets money from the customer.
-	{
-		return -1.0;
-	}
-	
-	public static double makeChange100(int pennies)//This method will break the amount given into dollars.
-	
-	{
-		return -1.0;
-	}
-	
-	public static double makeChange25(int pennies)//This method will break the amount down by quarters.
-	{
-		return -1.0;
-	}
-	
-	public static double makeChange10(int pennies)//This method will break the amount down by dimes.
-	{
-		return -1.0;
-	}
-	
-	public static double makeChange5(int pennies)//This method will break the amount down by nickels.
-	{
-		return -1.0;
-	}
-	
-	public static double makeChange1(int pennies)//This method will break the amount down by pennies.
-	{
-		return -1.0;
+		System.out.println("$" + cashOut);
+		
+		penniesR = Math.round(cashOut*100.00)/100.00;
+		System.out.println(penniesR);
+		
+		pennies = (int)Math.round(cashOut * 100);
+		System.out.println(pennies);
+		
+		quarters = pennies/25;
+		pennies %= 25;
+		dimes = pennies/10;
+		pennies %= 10;
+		nickels = pennies/5;
+		pennies %= 5;
+		penniesT = pennies/1;
+		pennies %= 1;
+		
+		System.out.println("Quarters : " + quarters + " Dimes : " + dimes +
+				" Nickels : " + nickels + " Pennies : " + penniesT);
 	}
 	
 }
