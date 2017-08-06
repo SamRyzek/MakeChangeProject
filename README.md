@@ -5,9 +5,9 @@ This is my first assignment. The focus of this project is to design a program th
 
 ### Goals!
 
-At this point in the training I feel the area that I am weakest in is methods and the passing of variables between methods. With that being said, I will be using methods heavily in this program to help in learning this important concept. My second major goal is to complete the project with functional program; meeting all stated requirements.
+My goal is to complete the project with functional program; meeting all stated requirements.
 
-Program began using methods, but was having difficulty in making it work. MakeChange.java contains a working model based on the project parameters. A second class was started, MakeChangeMethod.java where I will work on getting the program to work using methods.
+Program began using methods, but was having difficulty in making it work. MakeChange.java contains a working model based on the project parameters. 
 
 ### What I learned!
 
