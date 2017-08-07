@@ -7,7 +7,7 @@ import java.util.*;
 
 public class MakeChange 
 {
-	private static Scanner kb;		//gives scanner a class in field
+	private static Scanner kb;		//initializes Scanner in field
 	public static void main(String[] args) 
 	{
 		kb = new Scanner(System.in);  //calls scanner and initializes
