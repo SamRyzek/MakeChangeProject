@@ -15,7 +15,7 @@ Still struggle with methods. However, this program helped solidify many of the c
 
 ### To do!
 
-It would be interesting to see if arrays would work on this. Perhaps an array for coin denominations and paper denominations. Additionally, need to add methods to the program and get it to work with methods as previously stated. 
+It would be interesting to see if arrays would work on this. Perhaps an array for coin denominations and paper denominations. 
 
 ### How the program works.
 
